@@ -28,12 +28,3 @@ function avadaKedavraFeature(feature) {
 	 	}
 	 }
 }
-
-avadaKedavraFeature("localStorage");
-
-
-if(window.localStorage) {
-	console.log("Has storage")
-} else {
-	console.log("no storage")
-}
