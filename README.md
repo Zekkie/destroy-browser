@@ -25,6 +25,24 @@ if you want to disable for example forEach or map or filter etc etc. Or whatever
 	avadaKedavraFeature("Array.prototype.forEach")
 ```
 
+
+#IMPORTANT
+
+Use the avadaKedavra above the feature detection like this
+
+```Javascript
+	
+	avadaKedavraFeature("localStorage")
+
+	if(window.localStorage) {
+		console.log("localStorage exists")
+	}else {
+		console.log("localStorage does not exist")
+	}
+
+
+```
+
 Voila no more features. 
 
 Have fun!
